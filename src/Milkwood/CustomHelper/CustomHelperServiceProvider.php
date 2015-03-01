@@ -18,7 +18,7 @@ class CustomHelperServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		\App::singleton('CH','\App\Facades\CustomHelper\CustomHelper');
+		\App::singleton('CH','\Milkwood\CustomHelper\CustomHelper');
 	}
 
 	/**

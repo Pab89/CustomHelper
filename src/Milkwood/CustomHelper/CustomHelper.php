@@ -21,6 +21,13 @@
 
 		
 		}
+
+		// Add text in front of a string if the text is not found within the string
+		public function addTextToStringIfNotFound($needle,$haystack){
+		
+			return (strpos($haystack, $needle) !== false) ? $haystack : $needle . $haystack;
+		
+		}
 	}
 
 ?>

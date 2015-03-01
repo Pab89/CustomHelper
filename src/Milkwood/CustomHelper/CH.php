@@ -1,6 +1,6 @@
 <?php
 
-	namespace Milkwood\App\CustomHelper;
+	namespace Milkwood\CustomHelper;
 	
 	use Illuminate\Support\Facades\Facade;
 
